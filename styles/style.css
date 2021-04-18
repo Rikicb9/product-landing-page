@@ -60,6 +60,13 @@ nav > ul {
     margin-right: 270px;
 }
 
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 50%;
+    }
+  }
+
 li {
     list-style: none;
 }
@@ -238,8 +245,9 @@ footer {
 
 footer > ul {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 340px;
+    justify-content: space-around;
+    padding-left: 950px;
+    padding-right: 270px;
 }
 
 footer > ul > li {
